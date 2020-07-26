@@ -1212,8 +1212,7 @@ audio {
 		-moz-transform: rotate(20deg);
 	}
 	100% {
-		-moz-transform: rotate(-20deg);
-	}
+		-moz-transform: rotate(-20deg);}
 }
 @-o-keyframes balloons_rotate_two {
 	0% {
