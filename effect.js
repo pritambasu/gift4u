@@ -191,13 +191,12 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
-		$(this).fadeOut('slow').delay(15000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 		$('#some_test').fadeIn('slow');
 		
 	});
-	$('#some_test').click(function() {
-		
-  		window.location='http://www.google.com';
+	$('#some_test').click(function() {		
+  	window.location='http://www.google.com';
 		
 });
 });
