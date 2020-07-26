@@ -193,6 +193,9 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+	$('#some_test').click(function() {
+  window.location='http://www.google.com';
+});
 });
 
 
